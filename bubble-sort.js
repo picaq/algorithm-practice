@@ -25,3 +25,5 @@ let bubbleSortOpt = (arr) => {
     }
     return arr;
 }
+
+bubbleSortOpt([2,56,7,9,5,43,3,1,645,6,3,7,23]);
