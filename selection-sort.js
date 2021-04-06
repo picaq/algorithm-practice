@@ -10,11 +10,7 @@ let selectionSort = (arr) => {
             }
         }
         if ( arr[smallest] < arr[i] ) {
-            let temp = arr[i];
-            // console.log({temp});
-            // console.log({smallest});
-            arr[i] = arr[smallest];
-            arr[smallest] = temp;
+            [ arr[i], arr[smallest] ] = [ arr[smallest], arr[i] ]
         }
         console.log(arr);
     }
